@@ -1,0 +1,119 @@
+#whole-page {
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter';
+}
+
+#upper-part {
+    width: 100%;
+    height: 70%;
+    background-color: #ffcd9e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.info 
+    {
+        text-align: left;
+    }
+
+p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+.info  h1 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 44px;
+    margin: 20px 0;
+}
+
+.info p  {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 20px 0;
+    color: #484848;
+}
+
+.info h4 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #282828;
+    margin: 20px 0;
+}
+
+.mail-details {
+    
+        display: flex;
+        align-items: center;
+    }
+
+.info input {
+    width: 300px;
+    height: 50px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 3px solid black;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info button {
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 15px;
+    color: #ffffff;
+    background-color: #282828;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#lower-part {
+    width: 100%;
+    height: 30%;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#lower-part #other-links  a {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+#contact-details  {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #ffffff;
+}
+
+#contact-details a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 100;
+    margin: 5px 0;
+}
